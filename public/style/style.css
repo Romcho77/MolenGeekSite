@@ -78,6 +78,10 @@
     width: 100%;
     /* margin: auto; */
   }
+
+  #home{
+    border-bottom: 4px solid #0D0C2B !important;
+  }
   
   .navbar {
     width: 100%;
@@ -256,7 +260,7 @@
     transition:all 0.5s linear;
   }
   .container button{
-    color:rgb(10, 100, 112);
+    color:#0E2431;
   }
 
 
@@ -350,7 +354,7 @@
     display: none;
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 47%;
     padding: 12.5px 30px;
     border: 0;
     border-radius: 100px;
@@ -431,6 +435,7 @@
     padding: 0.6em 2em;
     border: mediumspringgreen solid 0.15em;
     border-radius: 0.25em;
+    
     color: mediumspringgreen;
     font-size: 1.5em;
     font-weight: 600;
@@ -563,11 +568,7 @@
   }
 
   /*! carousel */
-  /* @mixin white-gradient {
-    background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
-  } */
-  
-  /* $animationSpeed: 40s; */
+
   
   /* Animation */
   @keyframes scroll {
@@ -702,10 +703,11 @@
 .input {
   max-width: 390px;
   height: 44px;
-  background-color: #515151f9;
+  background-color: #CFEBF4;
+  /* background-color: #515151f9; */
   border-radius: .5rem;
   padding: 0 1rem;
-  border: 3px solid transparent;
+  border: 3px solid black;
   font-size: 1rem;
   transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s !important;
 }
@@ -722,7 +724,7 @@
 .input:hover, .input:focus, .input-group:hover .input {
   outline: none;
   border-color: #05060f;
-  background-color: #0a7968;
+  background-color: #86e0d7;
 }
 
 .input-group{
