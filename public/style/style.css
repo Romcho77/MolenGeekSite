@@ -299,6 +299,8 @@
    
    #bottone1:hover {
     box-shadow: 7px 5px 56px -10px #00d99c;
+    background: #04c5ec6f;
+    color: beige;
    }
    
    #bottone1:active {
@@ -346,8 +348,8 @@
   }
   
   .section2>h2>a:hover{
-    color: aqua;
-    border-bottom: 4px solid #92FEA9;
+    color: rgb(249, 208, 4);
+    border-bottom: 4px solid #2c4d33;
   }
 
   .buttonReturn {
